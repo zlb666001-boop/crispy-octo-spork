@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node compress.js)",
+      "Bash(cd \"c:/Users/86173/Desktop/新建文件夹\" && rm -f *.bak compress.js && rm -rf node_modules package.json package-lock.json && echo \"cleaned\" && ls -lh *.jpg *.gif | awk '{print $5, $NF}')"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\86173\\Desktop\\新建文件夹"
+    ]
+  }
+}
